@@ -1,0 +1,8 @@
+.content {
+	display: grid;
+
+}
+
+tr:nth-child(2) {
+  background-color: #d6deee;
+}

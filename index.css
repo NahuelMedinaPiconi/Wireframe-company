@@ -1,0 +1,171 @@
+header {
+	height: 100px;
+}
+
+tr:nth-child(2) {
+  background-color: #d6deee;
+}
+
+section {
+	grid-area: section;
+}
+
+img {
+	grid-area: img;
+
+}
+
+table {
+	grid-area: table;
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+p {
+	grid-area: p;
+}
+
+div > p {
+	display: flex;
+	margin-top: 30px;
+	align-items: center;
+	background-color: #ced6ea;
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+
+section > img {
+	border-radius: 50%;
+}
+
+h3 {
+	color: white;
+}
+
+th, td {
+	border: 1px solid gray;
+}
+
+.display {
+	display: flex;
+}
+
+.centrar_vertical {
+	align-items: center;
+}
+
+.centrar_horizontal {
+	justify-content: center;
+}
+
+.space_around {
+	justify-content: space-around;
+}
+
+.dreta {
+	margin-left: 220px;
+}
+
+.background_blue {
+	background-color: #0a3494;
+}
+
+.background_white {
+	background: white;
+}
+
+.padding_logo {
+	padding: 10px;
+	width: 370px;
+}
+
+.womargin {
+	margin: 0;
+	padding: 0;
+}
+
+.boto {
+	padding: 1%;
+	height: 40px;
+	width: 100px;
+	border: 0;
+	margin-right: 20px;
+}
+
+.header_contingut {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid grey;
+	height: 70px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.lateral {
+	background-color: #0a3494;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.autor_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 140px;
+	width: 350px;
+}
+
+.autor_p {
+	background-color: #284c9f;
+	padding: 20px;
+}
+
+.img_header {
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.p_header {
+	border-right: 1px solid grey;
+	padding-right: 80px;
+	margin-right: 0;
+}
+
+.lateral {
+	grid-area: lateral;
+}
+
+.imatge {
+	grid-area: imatge;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.content {
+	display: grid;
+	grid-template-areas: 
+	"img img lateral"
+	"imatge p lateral"
+	"section section lateral"
+	"table table lateral"
+	;
+	gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.autor_section {
+	display: flex;
+	background-color: #0a3494;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
